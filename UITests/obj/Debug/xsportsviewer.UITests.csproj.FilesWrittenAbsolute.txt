@@ -1,0 +1,7 @@
+/Users/Les/Desktop/xsportsviewer/UITests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Les/Desktop/xsportsviewer/UITests/bin/Debug/xsportsviewer.UITests.dll.mdb
+/Users/Les/Desktop/xsportsviewer/UITests/bin/Debug/xsportsviewer.UITests.dll
+/Users/Les/Desktop/xsportsviewer/UITests/obj/Debug/xsportsviewer.UITests.dll
+/Users/Les/Desktop/xsportsviewer/UITests/obj/Debug/xsportsviewer.UITests.dll.mdb
+/Users/Les/Desktop/xsportsviewer/UITests/bin/Debug/nunit.framework.dll
+/Users/Les/Desktop/xsportsviewer/UITests/bin/Debug/Xamarin.UITest.dll

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{9FBF1BE8-6CC0-4DC2-BC5B-AB11181D64E3}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Common.Core</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\IDialogPrompt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\DialogPromp.Droid.cs">
+      <DependentUpon>IDialogPrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\DialogPrompt.IOS.cs">
+      <DependentUpon>IDialogPrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\IProgressIndicator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\ProgressIndicator.Droid.cs">
+      <DependentUpon>IProgressIndicator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\ProgressIndicator.IOS.cs">
+      <DependentUpon>IProgressIndicator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Services\HttpService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ObservableViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ObservableObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Grouping.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\ObservableRangeCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\CoreExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Config\AppData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\FileStore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\ICalendarEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\CalendarEvent.IOS.cs">
+      <DependentUpon>ICalendarEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\CalendarEvent.Droid.cs">
+      <DependentUpon>ICalendarEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\GradientButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\GradientButtonRenderer.Droid.cs">
+      <DependentUpon>GradientButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\GradientButtonRenderer.IOS.cs">
+      <DependentUpon>GradientButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\BoundPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\AccountService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Crypto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\BindablePicker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\SegmentControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\AbsoluteLayoutPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\ListControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\RankingControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\EntryUnderline.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\EntryUnderlineRenderer.Droid.cs">
+      <DependentUpon>EntryUnderline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\EntryUnderlineRenderer.IOS.cs">
+      <DependentUpon>EntryUnderline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviors\RegExBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviors\ValidationBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviors\PhoneMaskBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\IDeviceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\DeviceInfo.Droid.cs">
+      <DependentUpon>IDeviceInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\DeviceInfo.IOS.cs">
+      <DependentUpon>IDeviceInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\TextAreaRenderer.IOS.cs">
+      <DependentUpon>TextArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\TextArea.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\TextAreaRenderer.Droid.cs">
+      <DependentUpon>TextArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\SegmentControlRenderer.Droid.cs">
+      <DependentUpon>SegmentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\SegmentControlRenderer.IOS.cs">
+      <DependentUpon>SegmentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\ContentViewRoundedRenderer.Droid.cs">
+      <DependentUpon>ContentViewRounded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\ContentViewRoundedRenderer.IOS.cs">
+      <DependentUpon>ContentViewRounded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\ContentViewRounded.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\EncryptedStore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\IPhoneCall.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\INavigate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\PhoneCall.Droid.cs">
+      <DependentUpon>IPhoneCall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\Navigate.Droid.cs">
+      <DependentUpon>INavigate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\Navigate.IOS.cs">
+      <DependentUpon>INavigate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Effects\CommonEffects.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Effects\CommonEffects.Droid.cs">
+      <DependentUpon>CommonEffects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Effects\CommonEffects.IOS.cs">
+      <DependentUpon>CommonEffects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\PhoneCall.IOS.cs">
+      <DependentUpon>IPhoneCall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Data\DataModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sqlite\DbBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sqlite\SQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sqlite\SQLiteAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ResponseTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviors\NumericValidationBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviors\RequiredValidationBehavior.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Services\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Dependencies\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Util\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Extensions\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Config\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Controls\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Pages\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Behaviors\" />
+    <Folder Include="$(MSBuildThisFileDirectory)PushNotifications\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Effects\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Data\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Sqlite\" />
+  </ItemGroup>
+</Project>
