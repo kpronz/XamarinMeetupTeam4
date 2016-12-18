@@ -1,0 +1,3 @@
+database server: 209.250.2.90\prod2008,11433
+ftp server: 209.250.2.91
+web server: 209.250.2.91
