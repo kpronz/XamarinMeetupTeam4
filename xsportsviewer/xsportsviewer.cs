@@ -8,23 +8,8 @@ namespace xsportsviewer
     {
         public App()
         {
-            // The root page of your application
-            var content = new ContentPage
-            {
-                Title = "xsportsviewer",
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
-
-            MainPage = new NavigationPage(content);
+			// The root page of your application
+			MainPage = new LoginPage();
         }
 
         protected override void OnStart()
